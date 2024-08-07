@@ -1,3 +1,37 @@
-.d-flex{
+/* .d-flex{
     left: 40%;
+} */
+.main{
+    display: grid;
+    grid-template-areas: 
+    'd1 d1 d2 d2'
+    'd3 d3 d3 d3'
+    ;
+    grid-template-rows:
+    250px 250px;
+    position: relative;
+
+
+}
+.d1{
+    grid-area: d1;
+    background-color: black;
+
+}
+.d2{
+    grid-area: d2;
+    background-color: black;
+}
+#pic1{
+    width:75%;
+    float: inline-end;
+}
+#pic2{
+    width:65%;
+    float: inline-start;
+}
+.d3{
+    text-align: center;
+    color: white;
+    background-color: black;
 }
