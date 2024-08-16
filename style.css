@@ -66,3 +66,18 @@
     
     
 }
+.dft a{
+    text-decoration: none;
+    color: white;
+}
+.dft1 a{
+    text-decoration: none;
+    color: white;
+}
+.dft1 a:hover{
+    color:aquamarine;
+}
+
+.dft a:hover{
+    color:aquamarine;
+}
